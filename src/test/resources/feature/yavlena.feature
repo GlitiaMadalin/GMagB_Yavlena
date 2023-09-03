@@ -22,7 +22,8 @@ Feature:Searching name of Broker and checking informations
       | Pencho Penkov      | Blagoevgrad, Office Blagoevgrad | +359 73 88 20 05 | +359 886 880 290 | (12 Properties)      |
       | Olga Shmeleva      | Burgas, Office Burgas           | +359 56 878 008  | +359 885 777 730 | (36 Properties)      |
 
-  @TS02
-  Scenario: Clicking to "load more" button to see the brokers are loaded
-    When user click to the load more button
-    Then verify that the number of webelements are increased
+    @TS02
+    Scenario: Clicking to "load more" button to see the brokers are loaded
+     When user click to the load more button
+     Then verify that the number of webelements are increased
+
