@@ -1,6 +1,7 @@
-package com.KinAndCartaTest.step_definitions;
+package com.yavlena.step_definitions;
 
-import com.KinAndCartaTest.utilities.Driver;
+
+import com.yavlena.utilites.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
